@@ -16,6 +16,8 @@ CREATE TABLE Suppliers
 	[Address] VARCHAR(50),
 	ContactNumber VARCHAR(50)
 );
+ALTER TABLE Suppliers
+ALTER COLUMN [Address] VARCHAR(100);
 
 CREATE TABLE Products
 (
